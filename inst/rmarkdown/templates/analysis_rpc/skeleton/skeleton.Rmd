@@ -1,0 +1,15 @@
+---
+title: "Analysis"
+output: 
+  bookdown::html_document2: 
+    theme: darkly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+analystrpc::common_packages_settings()
+```
+
+# EDA
+# Analysis 
+# Modeling

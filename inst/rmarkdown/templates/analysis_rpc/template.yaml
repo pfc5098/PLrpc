@@ -1,0 +1,4 @@
+name: analysis_rpc
+description: >
+   A template for data analysis.
+create_dir: FALSE
