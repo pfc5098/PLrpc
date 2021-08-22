@@ -3,6 +3,8 @@ title: "Analysis"
 output: 
   bookdown::html_document2: 
     theme: darkly
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
