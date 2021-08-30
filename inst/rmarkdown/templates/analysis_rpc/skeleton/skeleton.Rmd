@@ -1,10 +1,18 @@
 ---
 title: "Analysis"
 output: 
+  # html_notebook:
   bookdown::html_document2: 
     theme: darkly
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+params: 
+  use_cache: TRUE
 editor_options: 
-  chunk_output_type: console
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
@@ -15,3 +23,5 @@ analystrpc::common_packages_settings()
 # EDA
 # Analysis 
 # Modeling
+
+The value of `use_cache` is `r params$use_cache`
